@@ -1,0 +1,2 @@
+class BotMove < ApplicationRecord
+end
