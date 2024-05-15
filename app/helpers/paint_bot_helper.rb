@@ -1,4 +1,4 @@
-module PainBotHelper
+module PaintBotHelper
 	def defaultGridSize
 		10
 	end

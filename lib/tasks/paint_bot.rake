@@ -1,7 +1,7 @@
-require "#{Rails.root}/app/helpers/pain_bot_helper"
-include PainBotHelper
+require "#{Rails.root}/app/helpers/paint_bot_helper"
+include PaintBotHelper
 
-namespace :pain_bot do
+namespace :paint_bot do
 	task :play, [:grid_size] => :environment do |task, args|
 
 		p ":: Controls ::"
@@ -49,7 +49,6 @@ namespace :pain_bot do
 	end
 
 	def calculateNewPosition(position, keystroke)
-		puts "#{position}"
 		case keystroke
 		when 'w'
 			[position[0]-1, position[1]]
