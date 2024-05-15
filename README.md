@@ -22,10 +22,15 @@ o The number of spaces painted by the robot.
 I decided to implement a rake task that prints the grid of configurable size. When running the task the user can press a key and the program will recognize if it's a valid input. You may download the demo video from [here](https://github.com/emilioborraz/paint_bot/blob/main/public/demo.mov) that shows the functionality described below. 
 
 * Moving the bot: The program allows to move the bot in the 4 different directions (w for moving up, s for moving down, a for moving left and d for moving right). Grid boundaries validation are in place.
+![Screen Shot 2024-05-14 at 9 41 48 PM](https://github.com/emilioborraz/paint_bot/assets/1085846/469cb832-dfb5-49f6-91e2-0cd3e548d72b)
+
 
 * Displaying historical data: Pressing the `h` key and then `enter` will display the historical data of Bot moves and program~task runs.
+![Screen Shot 2024-05-14 at 9 42 01 PM](https://github.com/emilioborraz/paint_bot/assets/1085846/98537c8f-513c-4d25-9a19-1cefa8da5e72)
+
 
 * Exiting the task: Pressing the `e` key will exit the task and prints the final location of the robot and the number of spaces ~ moves painted by it.
+![Screen Shot 2024-05-14 at 9 42 10 PM](https://github.com/emilioborraz/paint_bot/assets/1085846/5cab0403-a56c-42ad-a21c-7c7b806bd0a5)
 
 * Database: The BotMove model was created to record moves of the bot. The model was created using the Rails `rails generate model BotMove guid:string direction:string && bundle exec rails db:migrate` generator.
 
