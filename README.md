@@ -19,7 +19,7 @@ o The number of spaces painted by the robot.
 
 ```
 
-I decided to implement a rake task that prints the grid of configurable size. When running the task the user can press a key and the program will recognize if it's a valid input.
+I decided to implement a rake task that prints the grid of configurable size. When running the task the user can press a key and the program will recognize if it's a valid input. You may download the demo video from [here](https://github.com/emilioborraz/paint_bot/blob/main/public/demo.mov) that shows the functionality described below. 
 
 * Moving the bot: The program allows to move the bot in the 4 different directions (w for moving up, s for moving down, a for moving left and d for moving right). Grid boundaries validation are in place.
 
