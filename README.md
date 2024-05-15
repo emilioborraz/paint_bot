@@ -30,6 +30,7 @@ I decided to implement a rake task that prints the grid of configurable size. Wh
 
 
 * Exiting the task: Pressing the `e` key will exit the task and prints the final location of the robot and the number of spaces ~ moves painted by it.
+
 ![Screen Shot 2024-05-14 at 9 42 10 PM](https://github.com/emilioborraz/paint_bot/assets/1085846/5cab0403-a56c-42ad-a21c-7c7b806bd0a5)
 
 * Database: The BotMove model was created to record moves of the bot. The model was created using the Rails `rails generate model BotMove guid:string direction:string && bundle exec rails db:migrate` generator.
